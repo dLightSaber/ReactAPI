@@ -7,8 +7,8 @@ const jwt = require('jsonwebtoken');
 const utils = require('./utils');
 
 const app = express();
-const port = process.env.PORT || 4000;
-
+//const port = process.env.PORT || 4000;
+const port ='';
 // static user details
 const userData = {
   userId: "789789",
